@@ -1,0 +1,11 @@
+$primary-dark:  rgb(50,50,50);
+$primary-light: rgb(250,250,250);
+$accent-color: rgb(68, 85, 179);
+
+@mixin header-footer {
+    display: flex;
+    padding: 1rem;
+    margin: 1.5rem;
+    color: $primary-light;
+    background-color: $primary-dark;
+}

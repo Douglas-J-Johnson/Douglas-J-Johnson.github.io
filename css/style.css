@@ -55,6 +55,58 @@ table {
   border-spacing: 0;
 }
 
+/* _main */
+body {
+  background-color: #fafafa;
+}
+
+header {
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+  margin: 1.5rem;
+  color: #fafafa;
+  background-color: #323232;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main {
+  padding: 1rem;
+  margin: 2.5rem;
+  color: #323232;
+  background-color: #fafafa;
+}
+
+footer {
+  position: absolute;
+  left: 0rem;
+  right: 0rem;
+  bottom: 0rem;
+  font-size: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+  margin: 1.5rem;
+  color: #fafafa;
+  background-color: #323232;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.header-text {
+  font-size: 3rem;
+}
+
+.header-text:hover {
+  color: #4455b3;
+}
+
 /*  MFG Labs iconset 1.0
     
     -------------------------------------------------------
@@ -854,9 +906,5 @@ i {
 
 .icon-new_user:before {
   content: "\F536";
-}
-
-h1 {
-  color: red;
 }
 /*# sourceMappingURL=style.css.map */

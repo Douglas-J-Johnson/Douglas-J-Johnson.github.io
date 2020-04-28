@@ -1,0 +1,35 @@
+/* _main */
+body {
+    background-color: $primary-light;
+}
+
+header {
+    height: 10vh;
+    @include header-footer
+    align-items: center;
+}
+
+main {
+    padding: 1rem;
+    margin: 2.5rem;
+    color: $primary-dark;
+    background-color: $primary-light;
+}
+
+footer {
+    position: absolute;
+    left: 0rem;
+    right: 0rem;
+    bottom: 0rem;
+    font-size: 1rem;
+    @include header-footer
+    justify-content: flex-end;
+}
+
+.header-text {
+    font-size: 3rem;
+}
+
+.header-text:hover {
+    color: $accent-color;
+}

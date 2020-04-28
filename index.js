@@ -1,1 +1,1 @@
-console.log('My Page')
+console.log('Script')
