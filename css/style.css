@@ -3,6 +3,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import url("https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -56,11 +57,16 @@ table {
 }
 
 /* _main */
+* {
+  font-family: 'Nanum Gothic Coding', monospace;
+}
+
 body {
   background-color: #fafafa;
 }
 
 header {
+  font-family: 'Nanum Gothic Coding', monospace;
   height: 10vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -72,6 +78,9 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 main {
@@ -101,10 +110,7 @@ footer {
 
 .header-text {
   font-size: 3rem;
-}
-
-.header-text:hover {
-  color: #4455b3;
+  font-weight: 500;
 }
 
 /*  MFG Labs iconset 1.0
@@ -129,8 +135,8 @@ footer {
     */
 @font-face {
   font-family: 'mfg_labs_iconsetregular';
-  src: url("font/mfglabsiconset-webfont.eot");
-  src: url("font/mfglabsiconset-webfont.eot?#iefix") format("embedded-opentype"), url("font/mfglabsiconset-webfont.woff") format("woff"), url("font/mfglabsiconset-webfont.ttf") format("truetype"), url("font/mfglabsiconset-webfont.svg#mfg_labs_iconsetregular") format("svg");
+  src: url("../font/mfglabsiconset-webfont.eot");
+  src: url("../font/mfglabsiconset-webfont.eot?#iefix") format("embedded-opentype"), url("../font/mfglabsiconset-webfont.woff") format("woff"), url("../font/mfglabsiconset-webfont.ttf") format("truetype"), url("../font/mfglabsiconset-webfont.svg#mfg_labs_iconsetregular") format("svg");
   font-weight: normal;
   font-style: normal;
 }

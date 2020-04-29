@@ -1,12 +1,20 @@
 /* _main */
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding&display=swap');
+
+* {
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+
 body {
     background-color: $primary-light;
 }
 
 header {
+    font-family: 'Nanum Gothic Coding', monospace;
     height: 10vh;
-    @include header-footer
+    @include header-footer;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 main {
@@ -22,14 +30,11 @@ footer {
     right: 0rem;
     bottom: 0rem;
     font-size: 1rem;
-    @include header-footer
+    @include header-footer;
     justify-content: flex-end;
 }
 
 .header-text {
     font-size: 3rem;
-}
-
-.header-text:hover {
-    color: $accent-color;
+    font-weight: 500;
 }
