@@ -5,13 +5,17 @@
     font-family: 'Nanum Gothic Coding', monospace;
 }
 
+a {
+    color: $primary-light;
+    text-decoration: none;
+}
+
 body {
     background-color: $primary-light;
 }
 
 header {
     font-family: 'Nanum Gothic Coding', monospace;
-    height: 10vh;
     @include header-footer;
     align-items: center;
     justify-content: space-evenly;
@@ -26,15 +30,15 @@ main {
 
 footer {
     position: absolute;
-    left: 0rem;
-    right: 0rem;
-    bottom: 0rem;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
     font-size: 1rem;
     @include header-footer;
     justify-content: flex-end;
 }
 
 .header-text {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 500;
 }
