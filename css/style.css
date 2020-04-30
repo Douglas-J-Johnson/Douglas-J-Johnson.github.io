@@ -72,7 +72,7 @@ header {
   display: -ms-flexbox;
   display: flex;
   padding: 1rem;
-  margin: 1.5rem;
+  margin: 1.0rem;
   color: #fafafa;
   background-color: #323232;
   -webkit-box-align: center;
@@ -83,30 +83,39 @@ header {
           justify-content: space-evenly;
 }
 
+.header-text {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
 nav {
   line-height: 1.25;
   font-weight: bolder;
 }
 
+.menu-item {
+  cursor: pointer;
+}
+
+.selected {
+  text-decoration: underline;
+}
+
 main {
   padding: 1rem;
-  margin: 2.5rem;
+  margin: 1.5rem;
   font-family: 'Nanum Gothic', sans-serif;
   color: #323232;
   background-color: #fafafa;
 }
 
 footer {
-  position: absolute;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
   font-size: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding: 1rem;
-  margin: 1.5rem;
+  margin: 1.0rem;
   color: #fafafa;
   background-color: #323232;
   -webkit-box-pack: end;
@@ -120,6 +129,7 @@ em {
 
 h1, h2 {
   font-size: 2rem;
+  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
@@ -127,11 +137,6 @@ p {
   font-size: 1.5rem;
   margin: 0.5rem;
   line-height: 1.35;
-}
-
-.header-text {
-  font-size: 2rem;
-  font-weight: 500;
 }
 
 /*  MFG Labs iconset 1.0

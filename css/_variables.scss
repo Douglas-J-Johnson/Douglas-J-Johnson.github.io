@@ -5,7 +5,7 @@ $accent-color: rgb(68, 85, 179);
 @mixin header-footer {
     display: flex;
     padding: 1rem;
-    margin: 1.5rem;
+    margin: 1.0rem;
     color: $primary-light;
     background-color: $primary-dark;
 }

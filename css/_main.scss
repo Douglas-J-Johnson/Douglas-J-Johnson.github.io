@@ -17,24 +17,33 @@ header {
     justify-content: space-evenly;
 }
 
+.header-text {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
 nav {
     line-height: 1.25;
     font-weight: bolder;
 }
 
+.menu-item {
+    cursor: pointer;
+}
+
+.selected {
+    text-decoration: underline;
+}
+
 main {
     padding: 1rem;
-    margin: 2.5rem;
+    margin: 1.5rem;
     font-family: 'Nanum Gothic', sans-serif;
     color: $primary-dark;
     background-color: $primary-light;
 }
 
 footer {
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
     font-size: 1rem;
     @include header-footer;
     justify-content: flex-end;
@@ -46,6 +55,7 @@ em {
 
 h1, h2 {
     font-size: 2rem;
+    margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
@@ -53,9 +63,4 @@ p {
     font-size: 1.5rem;
     margin: 0.5rem;
     line-height: 1.35;
-}
-
-.header-text {
-    font-size: 2rem;
-    font-weight: 500;
 }

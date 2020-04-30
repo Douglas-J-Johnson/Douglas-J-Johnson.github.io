@@ -13,37 +13,42 @@
 <body>
     <header>
         <div class="social-icons">
-            <a href="http://www.linkedin.com/in/douglas-j-johnson"><i id="linked-in"
+            <a target="_blank" href="http://www.linkedin.com/in/douglas-j-johnson"><i id="linked-in"
                     class="icon-linked_in_circle icon2x"></i></a>
-            <a href="https://github.com/Douglas-J-Johnson"><i id="github" class="icon-octopus icon2x"></i></a>
-            <a href="mailto:doug@dougj.dev"><i id="email" class="icon-at icon2x"></i></a>
+            <a target="_blank" href="https://github.com/Douglas-J-Johnson"><i id="github" class="icon-octopus icon2x"></i></a>
+            <a target="_blank" href="mailto:doug@dougj.dev"><i id="email" class="icon-at icon2x"></i></a>
         </div>
         <div class="header-text">dougj.dev</div>
         <nav>
             <ul>
-                <li>About Me</li>
-                <li>Projects</li>
-                <li><a href="https://blog.dougj.dev">Read My Blog</a></li>
+                <li id="about-select" class="menu-item menu-page selected">About Me</li>
+                <li id="projects-select" class="menu-item menu-page">Projects</li>
+                <li id="blog" class="menu-item"><a target="_blank" href="https://blog.dougj.dev">Read My Blog</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <h1>Hello, my name is <em>Doug Johnson</em>.  Thank you for coming to visit!</h1>
-        <p>
-            I am a Colorado native, husband, and father of two.  And then father of two more... dogs.
-            I have spent the majority of my career in tech as a systems engineer, mainly in the realm 
-            of software development, with some experience in operations.  I participated in many aspects
-            of the software development lifecycle.  I love solving problems and creating solutions.
-        </p>
-        <p>
-            I am excited to moving into a new phase of my career as software developer, systems engineer,
-            or any combination thereof with my new software development skills!  Take a minute to look 
-            around an see my projects and profiles and then reach out to me!
-        </p>
-        <h2>
-            Thanks,
-            Doug
-        </h2>
+        <div id="about-page" class="page">
+            <h1>Hello, my name is <em>Doug Johnson</em>.  Thank you for coming to visit!</h1>
+            <p>
+                I am a Colorado native, husband, and father of two.  And then father of two more... dogs.
+                I have spent the majority of my career in tech as a systems engineer, mainly in the realm 
+                of software development, with some experience in operations.  I participated in many aspects
+                of the software development lifecycle.  I love solving problems and creating solutions.
+            </p>
+            <p>
+                I am excited to moving into a new phase of my career as software developer, systems engineer,
+                or any combination thereof with my new software development skills!  Take a minute to look 
+                around an see my projects and profiles and then reach out to me!
+            </p>
+            <h2>
+                Thanks,
+                Doug
+            </h2>
+        </div>
+        <div id="projects-page" class="page">
+            <h1>Projects</h1>
+        </div>
     </main>
     <footer>&copy Copyright 2020</footer>
 </body>
