@@ -57,8 +57,13 @@ table {
 }
 
 /* _main */
-a {
+header a {
   color: #fafafa;
+  text-decoration: none;
+}
+
+main a {
+  color: #323232;
   text-decoration: none;
 }
 
@@ -131,6 +136,8 @@ h1, h2 {
   font-size: 2rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  margin-right: 0.5rem;
+  display: inline-block;
 }
 
 p {

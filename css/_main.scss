@@ -1,8 +1,13 @@
 /* _main */
 @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|Nanum+Gothic+Coding&display=swap');
 
-a {
+header a {
     color: $primary-light;
+    text-decoration: none;
+}
+
+main a {
+    color: $primary-dark;
     text-decoration: none;
 }
 
@@ -57,6 +62,8 @@ h1, h2 {
     font-size: 2rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    margin-right: 0.5rem;
+    display: inline-block;
 }
 
 p {
